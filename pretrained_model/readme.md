@@ -1,1 +1,0 @@
-The Downloaded model should be saved in this directory.
