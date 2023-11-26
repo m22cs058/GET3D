@@ -1,10 +1,7 @@
-## GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images (NeurIPS 2022)<br>
-
-![Teaser image](./docs/assets/get3d_model.png)
 
 **GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images**<br>
-**[Paper](https://nv-tlabs.github.io/GET3D/assets/paper.pdf)
-**
+[Paper](https://nv-tlabs.github.io/GET3D/assets/paper.pdf)
+
 
 ## Requirements
 
