@@ -1,4 +1,3 @@
-
 **GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images**<br>
 [Paper](https://nv-tlabs.github.io/GET3D/assets/paper.pdf)
 
@@ -14,17 +13,6 @@ refer to [readme](./render_shapenet_data/README.md) to download shapenet dataset
 render it.
 
 ## Train the model
-
-#### Clone the gitlab code and necessary files:
-
-```bash
-cd YOUR_CODE_PATH
-git clone git@github.com:nv-tlabs/GET3D.git
-cd GET3D; mkdir cache; cd cache
-wget https://api.ngc.nvidia.com/v2/models/nvidia/research/stylegan3/versions/1/files/metrics/inception-2015-12-05.pkl
-```
-
-#### Train the model
 
 ```bash
 cd YOUR_CODE_PATH 
