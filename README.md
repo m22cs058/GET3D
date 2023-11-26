@@ -8,7 +8,7 @@
 
 ## Preparing datasets
 
-GET3D is trained on synthetic dataset. We provide rendering scripts for Shapenet. Please
+GET3D is trained on synthetic dataset. Rendering scripts for Shapenet is provided. Please
 refer to [readme](./render_shapenet_data/README.md) to download shapenet dataset and
 render it.
 
