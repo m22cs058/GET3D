@@ -12,6 +12,21 @@ GET3D is trained on synthetic dataset. We provide rendering scripts for Shapenet
 refer to [readme](./render_shapenet_data/README.md) to download shapenet dataset and
 render it.
 
+## Inference
+
+### Inference using Colab Environment
+
+- Run inference.ipynb on colab
+
+### Inference using CLI
+
+- Download pretrained model from [here](https://drive.google.com/drive/folders/1oJ-FmyVYjIwBZKDAQ4N1EEcE9dJjumdW?usp=sharing).
+- Inference could operate on a single GPU with 16 GB memory.
+
+```bash
+python train_3d.py --outdir=save_inference_results/shapenet_car  --gpus=1 --batch=4 --gamma=40 --data_camera_mode shapenet_car  --dmtet_scale 1.0  --use_shapenet_split 1  --one_3d_generator 1  --fp32 0 --inference_vis 1 --resume_pretrain MODEL_PATH
+```
+
 ## Train the model
 
 ```bash
@@ -30,21 +45,6 @@ If want to debug the model first, reduce the number of gpus to 1 and batch size 
 
 ```bash
 --gpus=1 --batch=4
-```
-
-## Inference
-
-### Inference using Colab Environment
-
-- Run inference.ipynb on colab
-
-### Inference using CLI
-
-- Download pretrained model from [here](https://drive.google.com/drive/folders/1oJ-FmyVYjIwBZKDAQ4N1EEcE9dJjumdW?usp=sharing).
-- Inference could operate on a single GPU with 16 GB memory.
-
-```bash
-python train_3d.py --outdir=save_inference_results/shapenet_car  --gpus=1 --batch=4 --gamma=40 --data_camera_mode shapenet_car  --dmtet_scale 1.0  --use_shapenet_split 1  --one_3d_generator 1  --fp32 0 --inference_vis 1 --resume_pretrain MODEL_PATH
 ```
 
 ### Evaluation metrics
