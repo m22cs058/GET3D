@@ -34,7 +34,11 @@ If want to debug the model first, reduce the number of gpus to 1 and batch size 
 
 ## Inference
 
-### Inference on a pretrained model for visualization
+### Inference using Colab Environment
+
+- Run inference.ipynb on colab
+
+### Inference using CLI
 
 - Download pretrained model from [here](https://drive.google.com/drive/folders/1oJ-FmyVYjIwBZKDAQ4N1EEcE9dJjumdW?usp=sharing).
 - Inference could operate on a single GPU with 16 GB memory.
