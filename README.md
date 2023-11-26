@@ -1,17 +1,10 @@
-## GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images (NeurIPS 2022)<br><sub>Official PyTorch implementation </sub>
+## GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images (NeurIPS 2022)<br>
 
 ![Teaser image](./docs/assets/get3d_model.png)
 
 **GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images**<br>
-[Jun Gao](http://www.cs.toronto.edu/~jungao/)
-, [Tianchang Shen](http://www.cs.toronto.edu/~shenti11/)
-, [Zian Wang](http://www.cs.toronto.edu/~zianwang/),
-[Wenzheng Chen](http://www.cs.toronto.edu/~wenzheng/), [Kangxue Yin](https://kangxue.org/)
-, [Daiqing Li](https://scholar.google.ca/citations?user=8q2ISMIAAAAJ&hl=en),
-[Or Litany](https://orlitany.github.io/), [Zan Gojcic](https://zgojcic.github.io/),
-[Sanja Fidler](https://www.cs.toronto.edu/~fidler/) <br>
 **[Paper](https://nv-tlabs.github.io/GET3D/assets/paper.pdf)
-, [Project Page](https://nv-tlabs.github.io/GET3D/)**
+**
 
 ## Requirements
 
